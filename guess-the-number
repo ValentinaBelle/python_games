@@ -1,0 +1,15 @@
+import random
+
+def guess(x):
+    randNum = random.randint(1, x)
+    guess = 0
+    while guess != randNum:
+        guess = int(input(f"Hey, guess a number between 1 and {randNum}: "))
+    if guess < randNum:
+        print("Your guess is lower than the number. Try again honey!")
+    elif guess > randNum:
+        print("Your guess is higher than the number. Try again love!")
+
+        print(f"Yay! You have guessed the number and it is {randNum}")
+
+        guess(30)
