@@ -1,0 +1,19 @@
+clothes = input("Your favourite piece of clothes: ")
+clothes2 = input("Add another piece of clothes: ")
+color = input("Your favourite color: ")
+color2 = input("Choose an additional color: ")
+place = input("A place where you feel happy: ")
+place2 = input("A place where you want to go now: ")
+who = input("Name of your friend: ")
+feeling = input("Name a feeling: ")
+flower = input("Name a flower: ")
+
+
+loveStory = f"""Two pairs of {clothes} and {clothes2}, / 
+One {color} and the other {color2}, /
+Flew up and down /
+On the {place} in {place2}, /
+Telling the {who} / 
+They are in {feeling} with {flower}"""
+
+print(loveStory)
